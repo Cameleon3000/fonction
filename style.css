@@ -32,7 +32,7 @@
 		    color: #333333;
 		}
 
-		form input[type="number"],
+		form input[type="float"],
 		form input[type="text"] {
 		    width: 100%;
 		    padding: 10px;
@@ -46,7 +46,7 @@
 		    transition: border-color 0.3s, background-color 0.3s;
 		}
 
-		form input[type="number"]:focus,
+		form input[type="float"]:focus,
 		form input[type="text"]:focus {
 		    border-color: #4dd0e1;
 		    background-color: #e0f7fa;
