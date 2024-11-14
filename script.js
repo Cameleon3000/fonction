@@ -1,8 +1,10 @@
-function calculer(event) {
-    event.preventDefault();
+function goTo(where) {
+    window.location.replace(where);
+}
 
+function calculer(x, fx) {
     var x = parseFloat(document.getElementsByName("x")[0].value);
-    var fx = document.getElementsByName("fx")[0].value;
+    var fx = document.getElementsByName("fx")f
 
     if (isNaN(x)) {
         alert("Veuillez entrer un nombre pour x.");
@@ -81,6 +83,7 @@ function onclickButton(button) {
 function calculate() {
     try { 
         document.getElementById('display').value = eval(document.getElementById('display').value);
+        calculer
     } catch(e) {
         document.getElementById('display').value = "Error";
     }
