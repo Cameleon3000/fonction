@@ -1,5 +1,5 @@
 function goTo(where) {
-    window.location.replace(where);
+    window.location.href = where;
 }
 
 function calculer(x, fx) {
